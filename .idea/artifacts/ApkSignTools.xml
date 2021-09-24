@@ -3,13 +3,35 @@
     <output-path>$PROJECT_DIR$/out</output-path>
     <properties id="javafx-properties">
       <options>
+        <option name="alias" />
         <option name="appClass" value="sample.Main" />
-        <option name="description" value="Apk Signature Tools by DeMon." />
+        <option name="convertCss2Bin" value="false" />
+        <option name="customManifestAttributes">
+          <list />
+        </option>
+        <option name="description" value="Apk Signature Tools by nolo." />
+        <option name="enabledSigning" value="false" />
         <option name="height" value="500" />
+        <option name="htmlParamFile" />
         <option name="htmlPlaceholderId" value="" />
+        <option name="htmlTemplateFile" />
+        <option name="icons">
+          <JavaFxApplicationIcons>
+            <option name="linuxIcon" />
+            <option name="macIcon" />
+            <option name="windowsIcon" />
+          </JavaFxApplicationIcons>
+        </option>
+        <option name="keypass" />
+        <option name="keystore" />
+        <option name="msgOutputLevel" value="Default" />
         <option name="nativeBundle" value="all" />
+        <option name="paramFile" />
+        <option name="selfSigning" value="true" />
+        <option name="storepass" />
         <option name="title" value="ApkSignTools" />
-        <option name="vendor" value="DeMon" />
+        <option name="updateMode" value="background" />
+        <option name="vendor" value="nolo" />
         <option name="version" value="1.0" />
         <option name="width" value="800" />
       </options>

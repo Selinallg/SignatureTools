@@ -28,8 +28,8 @@
                 <Button layoutX="555.0" layoutY="32.0" onAction="#editKey" text="编辑密钥配置" wrapText="true" />
                 <Button layoutX="645.0" layoutY="32.0" onAction="#refreshKey" text="编辑后，刷新密钥配置" wrapText="true" />
                 <Label layoutX="20.0" layoutY="158.0" text="写入渠道" />
-                <RadioButton fx:id="rbYes" layoutX="98.0" layoutY="157.0" mnemonicParsing="false" text="是" />
-                <RadioButton fx:id="rbNo" layoutX="145.0" layoutY="157.0" mnemonicParsing="false" text="否" />
-                <Button fx:id="btnChannel" layoutX="214.0" layoutY="154.0" onAction="#openChannel" text="配置渠道" wrapText="true" />
+                <RadioButton fx:id="rbYes" layoutX="98.0" layoutY="157.0" mnemonicParsing="false" text="是" visible="false"/>
+                <RadioButton fx:id="rbNo" layoutX="145.0" layoutY="157.0" mnemonicParsing="false" text="否" visible="false"/>
+                <Button fx:id="btnChannel" layoutX="214.0" layoutY="154.0" onAction="#openChannel" text="配置渠道" wrapText="true" visible="false" />
         </children>
 </AnchorPane>

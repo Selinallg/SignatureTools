@@ -327,6 +327,11 @@ public class SignedController implements Initializable {
         Log.i(TAG, "signedV2 sign: " + msg);
         if (new File(signPath).exists()) {
             sb.append(apkPath + "-新v1&v2签名成功！\n");
+
+
+            // todo
+
+
         } else {
             sb.append(apkPath + "-新v1&v2签名失败！可能存在的原因：密钥别名or密码配置错误！\n");
         }
